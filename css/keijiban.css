@@ -1,0 +1,8 @@
+.info{
+    overflow: auto;
+    height: 680px;
+}
+.info_box{
+    background-color: #c0c0c0;
+    font-size: 20px;
+}

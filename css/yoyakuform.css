@@ -1,0 +1,65 @@
+
+
+
+
+/* 人数 */
+.ninzu_box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 65px;
+    margin-left: 10px;
+    
+}
+.nin{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* 予約時間 */
+.yoyaku_time_box{
+    margin-top: 50px;
+ 
+}
+.yoyaku_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.time_box{
+    text-align: center;
+}
+.yoyaku_time{
+    width: 250px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    border: solid;
+}
+
+/* ご要望・メモ */
+.memo_box{
+    text-align: center;
+
+}
+.memo_title{
+    font-size: 25px;
+    margin-top: 45px;
+}
+.memo_text{
+    width: 280px;
+    height: 200px;
+    border: solid;
+}
+
+/* 予約ボタン */
+.yoyaku_btn_box{
+    text-align: center;
+}
+.yoyaku_final{
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px 60px;
+    margin-top: 50px;
+}

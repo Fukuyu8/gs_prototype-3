@@ -1,0 +1,66 @@
+/* お店の名前、評価 */
+
+
+.shop_title{
+    display: flex;
+}
+
+.shop_name{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.shop_star{
+    font-size: 30px;
+}
+
+/* スクロール */
+
+.shop_scroll{
+    overflow: auto;
+    height: 570px;
+}
+/* 店内雰囲気、食べ物の写真 */
+.shop_photo{
+    /* display:inline-block; */
+    display: flex;
+    overflow: auto;
+    height: 230px;
+}
+
+
+/* メニュー */
+.menu{
+    font-size: 30px;
+}
+.menu_photo{
+    display: flex;
+    overflow: auto;
+    height: 230px;
+}
+
+/* 特典・割引情報 */
+.bonus_box{
+    text-align: center;
+}
+.bonus{
+    font-size: 20px;
+}
+.bonus_text{
+    margin-top: 10px;
+    border: solid;
+    font-size: 10px;
+    width: 300px;
+    height: 150px;
+} 
+
+/* 予約ボタン */
+.yoyaku_btn_main{
+    text-align: center;
+}
+.yoyaku_btn{
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 20px 100px;
+    margin-top: 60px;
+   
+}

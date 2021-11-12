@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shopinfo.css">
+    <title>shopinfo</title>
+</head>
+
+<body>
+    <div class="shop_title">
+        <div class="shop_name">お店の名前</div>
+        <div class="shop_star">評価</div>
+    </div>
+
+    <div class="shop_scroll">
+        <!-- 店内雰囲気写真 -->
+        <div class="shop_photo">
+            <div><img src="img/shopin.png"></div>
+            <div><img src="img/shopin2.png"></div>
+            <div><img src="img/shopin3.png"></div>
+        </div>
+
+        <!-- メニュー -->
+        <div class="menu">メニュー</div>
+        <!-- 写真 -->
+        <div class="menu_photo">
+            <img src="img/menu.png">
+            <img src="img/menu2.png">
+            <img src="img/menu3.png">
+        </div>
+        <!-- 特典・割引情報 -->
+        <!-- テキスト -->
+        <div class="bonus_box">
+            <div class="bonus">特典・割引情報</div>
+            <textarea class="bonus_text" style="font-size:20px;"></textarea>
+        </div>
+    </div>
+    <!-- 予約ボタン -->
+    <div class="yoyaku_btn_main">
+        <input type="submit" id="yoyakuBtn" class="yoyaku_btn" value="予約する">
+    </div>
+
+    <!-- この下にアイコン -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+
+        $("#yoyakuBtn").on("click", function () {
+            location.href = 'yoyakuform.html'
+        });
+
+    </script>
+
+</body>
+
+</html>

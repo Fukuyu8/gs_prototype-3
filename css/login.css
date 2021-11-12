@@ -1,0 +1,40 @@
+/* ログイン画面(客側) */
+
+.login_title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  
+}
+
+/* メールアドレス、電話番号の枠 */
+.adress{
+    color: black;
+    background-color: #c0c0c0;
+    font-size: 20px;
+    border: solid;
+    border-color: gray;
+    margin: 160px 25px 0px;
+    padding: 20px 10px;
+}
+/* パスワード */
+.pass{
+    color: black;
+    background-color: #c0c0c0;
+    font-size: 20px;
+    border: solid;
+    border-color: gray;
+    margin: 30px 25px;
+    padding: 20px 10px;
+}
+/* ログインボタン */
+.login_btn{
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 60px 40px;
+}
+/* アカウント作成 */
+.make{
+    color: blue;
+}

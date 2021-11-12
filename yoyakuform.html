@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/yoyakuform.css">
+    <title>yoyakuform</title>
+</head>
+
+<body>
+    <input type="submit" value="↩︎戻る" class="return" style="width: 60px; height: 25px; margin: 5px; border: solid;">
+
+    <!-- 人数 -->
+    <div class="ninzu_box">
+        <div>
+            <input type="text" style="width: 180px; height: 60px; font-size: 50px;">
+        </div>
+        <div class="nin">人</div>
+    </div>
+    <!-- 予約時間 -->
+    <div class="yoyaku_time_box">
+        <div class="yoyaku_title">
+            ご予約時間
+        </div>
+        <div class="time_box">
+            <input type="time" class="yoyaku_time">
+        </div>
+
+        <!--ご要望・メモ -->
+        <div class="memo_box">
+            <div class="memo_title">
+                ご要望・メモ
+            </div>
+
+            <textarea class="memo_text" style="font-size:20px;"></textarea>
+        </div>
+
+        <!-- 予約ボタン -->
+        <div class="yoyaku_btn_box">
+            <input type="submit" class="yoyaku_final" value="予約する">
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('.return').on("click", function () {
+            location.href = "shopinfo.html"
+        });
+        $('.yoyaku_final').on("click", function () {
+            alert('予約完了');
+        });
+
+
+
+    </script>
+</body>
+
+</html>
