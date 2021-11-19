@@ -52,33 +52,18 @@
 </head>
 
 <body>
-    <form>
-        <div id="firebaseui-auth-container" style="zoom: 3; padding-top: 200px;"></div>
-    </form>
-    <!-- <div class="login_title">
-        <p class="adress">メールアドレス/電話番号
-            <input type="text" style="width: 200px; height: 35px; font-size: 30px;">
-        </p>
-        <p class="pass">パスワード<input type="text" style="width: 200px; height: 35px; font-size: 30px;">
-        </p>
 
-        <input type="submit" id="loginBtn" class="login_btn" value="ログイン">
-    <button onclick="location.href='map.html'" class="login_btn">ログイン</button>
+    <div id="firebaseui-auth-container" class="firebase"></div>
 
-    <a href="acountmake.html" class="make">アカウント作成</p>
-    </div>-->
+    <input type="button" class="make_btn" value="アカウント新規作成"></button>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-
-
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        $('.login_btn').on(click, function () {
-            location.href = 'map.html'
+        $('.make_btn').on("click", function () {
+            location.href = "acountmake.html"
         });
-
-    </script> -->
+    </script>
 </body>
 
 </html>
